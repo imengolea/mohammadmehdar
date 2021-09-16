@@ -1,0 +1,153 @@
+body {
+  background-image: url("../images/background.jpg");
+  font-family: 'Tajawal', sans-serif;
+}
+
+h2 {
+  font-size: 3rem !important;
+  color: #1B7C6C;
+}
+
+p {
+  font-size: 3rem;
+  color: #DB4135;
+}
+
+.content {
+  background-image: url("../images/bg.jpg");
+  margin: 90px 50px;
+  text-align: center;
+  padding: 40px;
+}
+
+/*big-title*/
+.big-title {
+  font-size: 5rem;
+  color: #1B7C6C;
+}
+
+.number {
+  font-size: 12rem;
+  color: #DB4135;
+}
+
+/*price*/
+.price-box {
+  color: white;
+  background-color: #AFC360;
+  border-radius: 50px;
+  padding: 10px 5px;
+  margin: 40px 0;
+}
+
+.price-box h1 {
+  font-size: 3rem;
+}
+
+/*big-image*/
+.big-image {
+  float: right;
+  margin-top: -20px;
+  margin-right: -53px
+}
+
+/*price*/
+.font2 {
+  font-family: 'Lalezar', cursive;
+}
+
+/*icons*/
+.icons {
+  text-align: left;
+  margin: 60px 5px 20px;
+}
+
+.fab {
+  font-size: 3rem;
+  margin: 20px;
+  color: #1B7C6C;
+}
+
+.fab:hover {
+  color: #AFC360;
+}
+
+/*contact*/
+.green-box {
+  background-color: #AFC360;
+  border-radius: 0 10px 10px 0;
+  padding: 6px;
+}
+
+.contact {
+  font-size: 1.5rem;
+  color: #011F79;
+  text-align: left !important;
+}
+
+@media (max-width:1028px) {
+  .content {
+    margin: 30px 0;
+    padding: 0;
+  }
+
+  /*big-title*/
+  .big-title {
+    font-size: 3rem;
+  }
+
+  .number {
+    font-size: 5rem;
+  }
+
+  /*big-image*/
+  .big-image {
+    float: none;
+    display: block !important;
+    margin-top: 20px;
+    margin-left: 63px;
+    width: 300px;
+  }
+
+  /*price*/
+  .price-box {
+    border-radius: 20px;
+    padding: 5px 2px;
+    margin: 20px 0;
+  }
+
+  .price-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .justify-content-start {
+    margin-top: 60px !important;
+    margin-left: 80px !important;
+    text-align: center !important;
+  }
+
+  h2, p {
+    font-size: 2rem !important;
+  }
+
+  /*icons*/
+  .icons {
+    text-align: center;
+    margin: 20px 3px 20px;
+  }
+
+  .fab {
+    font-size: 2.5rem;
+    margin: 20px;
+  }
+
+  /*contact*/
+  .green-box {
+    border-radius: 5px;
+  }
+
+  .contact {
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+}
