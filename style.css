@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/background.jpg");
+  background-image: url("images/background.jpg");
   font-family: 'Tajawal', sans-serif;
 }
 
@@ -14,7 +14,7 @@ p {
 }
 
 .content {
-  background-image: url("../images/bg.jpg");
+  background-image: url("images/bg.jpg");
   margin: 90px 50px;
   text-align: center;
   padding: 40px;
