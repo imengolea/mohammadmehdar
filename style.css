@@ -17,7 +17,7 @@ p {
   background-image: url("images/bg.jpg");
   margin: 90px 50px;
   text-align: center;
-  padding: 40px;
+  padding:  9px 40px ;
 }
 
 /*big-title*/
@@ -47,7 +47,7 @@ p {
 /*big-image*/
 .big-image {
   float: right;
-  margin-top: -20px;
+  margin-top: -50px;
   margin-right: -53px
 }
 
@@ -71,7 +71,6 @@ p {
 .fab:hover {
   color: #AFC360;
 }
-
 /*contact*/
 .green-box {
   background-color: #AFC360;
@@ -150,4 +149,5 @@ p {
     font-size: 15px !important;
     text-align: center !important;
   }
+
 }
